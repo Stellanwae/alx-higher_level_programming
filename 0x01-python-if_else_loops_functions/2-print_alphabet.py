@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for s in (chr(i) for i range(97, 123)):
+for s range(97, 123)):
     print("{:s}".format(s) end = '')
