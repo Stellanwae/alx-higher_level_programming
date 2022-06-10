@@ -6,6 +6,6 @@ def fizzbuzz():
         if i % 5 == 0 and not(i % 3):
             print("Buzz", end=' ')
         if i % 3 == 0 and i % 5 == 0:
-            print("FizzBuzz", end=(' '))
+            print("FizzBuzz", end=' ')
         elif i % 3 != 0 and i % 5 != 0:
             print("{:d}".format(i), end=' ')
