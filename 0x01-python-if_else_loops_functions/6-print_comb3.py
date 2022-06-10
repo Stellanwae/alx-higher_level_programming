@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 for j in range(0, 9):
     for k in range(0, 10):
         if ((j != k and j < k) and (j != 8 and k != 9)):
