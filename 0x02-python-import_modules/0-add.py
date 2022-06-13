@@ -1,10 +1,8 @@
 #!/usr/bin/python3
 
 from add_0 import add
-
-if _name_ == "_main_":
-
+def add(a, b):
     a = 1
     b = 2
-    
-    print("{:d} + {:d}".format(a, b, add(a, b)))
+    print("{:d} + {:d}".format(a, b))
+print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
