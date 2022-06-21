@@ -1,10 +1,12 @@
 #!/usr/bin/python3
 def safe_print_list_integers(my_list=[], x=0):
-    for int(i) in my_list:
+    y = 0
+    for i in range(x):
         try:
-            print("{:d}".format(i), end="")
-        except IndexError:
-            print("List out of range")
-    print("{:d}".format, (end="\n")
-
-            
+            if type(my_list[i]) is int and y != x:
+                print("{:d}".format(my_list[i]), end="")
+                y += 1
+             except TypeError:
+                continue
+     print()
+     return y
