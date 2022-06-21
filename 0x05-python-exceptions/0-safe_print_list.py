@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def safe_print_list(my_list=[], x=0):
     no = 0
-    for y in range:
+    for y in range(x):
         try:
             print("{:d}".format(my_list[y]), end='')
             no = no + 1
