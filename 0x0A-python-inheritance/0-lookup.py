@@ -3,6 +3,6 @@
 Has the lookup function
 """
 
-def lookup(obj):
+def lookup(a):
     """returns a list of available atttributes and methods of an object"""
-    return dir(obj)
+    return dir(a)
