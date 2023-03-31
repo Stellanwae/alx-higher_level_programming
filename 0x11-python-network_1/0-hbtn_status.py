@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """a script
 - takes a url
-uses urllib
+- uses urllib
 """
 
 
