@@ -11,4 +11,5 @@
 - Install request module
 
 `$ sudo npm install request --global
-$ export NODE_PATH=/usr/lib/node_modules`
+ 
+ $ export NODE_PATH=/usr/lib/node_modules`
